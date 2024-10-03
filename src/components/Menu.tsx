@@ -8,13 +8,13 @@ const menuItems = [
     items: [
       {
         icon: "/home.png",
-        label: "Home",
+        label: "მთავარი",
         href: "/",
         visible: ["admin", "teacher", "student", "parent"],
       },
       {
         icon: "/teacher.png",
-        label: "Teachers",
+        label: "კომპანიები",
         href: "/list/teachers",
         visible: ["admin", "teacher"],
       },
