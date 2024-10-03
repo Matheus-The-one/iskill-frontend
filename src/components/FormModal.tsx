@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import React from "react";
 import { useState } from "react";
 
 // USE LAZY LOADING
