@@ -7,6 +7,7 @@ import {
   role,
 } from "@/lib/data";
 import Image from "next/image";
+import React from "react";
 
 type Assignment = {
   id: number;
