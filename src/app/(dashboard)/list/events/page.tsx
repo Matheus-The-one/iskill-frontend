@@ -4,6 +4,7 @@ import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { eventsData, role } from "@/lib/data";
 import Image from "next/image";
+import React from "react";
 
 type Event = {
   id: number;
