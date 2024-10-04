@@ -1,6 +1,6 @@
+import React from 'react';
 import Menu from "@/components/Menu";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function DashboardLayout({
@@ -11,13 +11,17 @@ export default function DashboardLayout({
   return (
     <div className="h-screen flex">
       {/* LEFT */}
-      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
+      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4 bg-white">
         <Link
           href="/"
-          className="flex items-center justify-center lg:justify-start gap-2"
+          className="flex items-center justify-center lg:justify-start gap-2 mb-6"
         >
-        
-          <span className="hidden lg:block font-bold text-3xl text-yellow-400"><span className="text-purple-900 text-3xl">I</span>skill</span>
+          <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+            <span className="text-xl font-bold text-white">I</span>
+          </div>
+          <span className="hidden lg:block font-bold text-2xl text-black">
+            skill
+          </span>
         </Link>
         <Menu />
       </div>
